@@ -1,0 +1,137 @@
+[
+    {
+        "name": "Updated Provider Profile Link",
+        "ring": "trial",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "New provider profile team want to provide a new feed into DSI for providing organisation data that should fix the current issues with Provider Profile today."
+    },
+    {
+        "name": ".NET",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Continue with the adoption of .NET as our programming language of choice for DSI services and components, leveraging its performance, scalability, and robust framework."
+    },
+    {
+        "name": "Decommission Node JS components",
+        "ring": "hold",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "As part of our technology consolidation efforts, we plan to decommission Node.js components in favor of more .NET within our stack. This is to be done gradually to ensure stability and not to disrupt live service."
+    },
+    {
+        "name": "Full Entra Integration",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "This would result in our hybrid identity solution with the bespoke OIDC component being replaced by DSI utilsing just Entra to handle all authentication responsibilities."
+    },
+    {
+        "name": "Decommission OIDC component",
+        "ring": "hold",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "As part of the Full Entra integration, we plan to decommission our bespoke OIDC component, simplifying our authentication architecture and reducing maintenance overhead."
+    },
+    {
+        "name": "Use FaUAPI for exposing the DSI Public API",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "To align to DfE strategy regarding where APIs are exposed from, we will be moving the DSI Public API to be exposed via FaUAPI."
+    },
+    {
+        "name": "Hosting migration to UK south",
+        "ring": "hold",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "Migrate our hosting infrastructure to the UK South Azure region to improve latency, forgo any capacity limitations and align to wider DfE aspirations for DfE services to be hosted within Azure UK South"
+    },
+    {
+        "name": "Change of container hosting service",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "Evaluate and potentially switch to a different Azure container hosting service to improve performance, scalability, and cost-efficiency of our containerized applications."
+    },
+    {
+        "name": "Database consolidation",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "Consolidate the multiple database instances that we currently have into a single, more manageable database instance to reduce complexity, improve performance, and lower Azure costs."
+    },
+    {
+        "name": "Adopt Azure App configuration",
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "Implement Azure App Configuration to manage application settings and feature flags centrally, enhancing configuration management and deployment processes."
+    },
+    {
+        "name": "Pipeline improvements",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Evaluate current CI/CD pipelines and identify areas for improvement to enhance deployment speed, reliability, and automation. This is to ensure smoother releases and better integration practices as we are moving to .NET."
+    },
+    {
+        "name": "DSI data model improvements",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Review and enhance the DSI data model to improve data integrity, performance, and scalability, ensuring it meets current and future business needs."
+    },
+    {
+        "name": "Release process improvements",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Analyze the current release process and implement improvements to streamline workflows, reduce errors, and accelerate time-to-market for new features and updates."
+    },
+    {
+        "name": "Public API design and endpoint improvements",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Identify and implement enhancements to the Public API to improve performance, usability, and consumer/service experience."
+    },
+    {
+        "name": "Adopt blue/green deployment model",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Evaluate the adoption of a blue/green deployment strategy to minimize downtime and reduce risk during releases."
+    },
+    {
+        "name": "Deprecate SAML Proxies",
+        "ring": "hold",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "Plan to phase out SAML proxies in favor of more modern authentication methods, improving security and simplifying the authentication architecture of DSI. Currently is our weakest point in the platform from a security perspective."
+    },
+    {
+        "name": "Create integration tests",
+        "ring": "trial",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Develop comprehensive integration tests to ensure that different components of the DSI system work together seamlessly, enhancing overall system reliability."
+    },
+    {
+        "name": "Chaos engineering",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Explore the implementation of chaos engineering practices to proactively identify and address potential system weaknesses, improving resilience and fault tolerance."
+    },
+    {
+        "name": "Updated process regarding combined security scans",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Implement an updated process for conducting combined security scans to enhance vulnerability detection and ensure comprehensive security coverage across all DSI components."
+    }
+]
+
+
