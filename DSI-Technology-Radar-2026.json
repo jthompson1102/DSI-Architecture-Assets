@@ -7,11 +7,18 @@
         "description": "New provider profile team want to provide a new feed into DSI for providing organisation data that should fix the current issues with Provider Profile today."
     },
     {
-        "name": ".NET",
+        "name": ".NET migration",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
         "description": "Continue with the adoption of .NET as our programming language of choice for DSI services and components, leveraging its performance, scalability, and robust framework."
+    },
+     {
+        "name": "Use of .NET 10",
+        "ring": "assess",
+        "quadrant": "languages & frameworks",
+        "isNew": "TRUE",
+        "description": "Evaluate the adoption of .NET 10 for our DSI services to take advantage of the latest features, performance improvements, and long-term support offered by this version. This is inclusive of assessing compatibility with existing codebases and libraries and also trialing out the concept of file based applications/scripts that can be written in .NET over other scripting languages."
     },
     {
         "name": "Decommission Node JS components",
@@ -92,10 +99,10 @@
     },
     {
         "name": "Public API design and endpoint improvements",
-        "ring": "assess",
+        "ring": "trial",
         "quadrant": "techniques",
         "isNew": "TRUE",
-        "description": "Identify and implement enhancements to the Public API to improve performance, usability, and consumer/service experience."
+        "description": "Identify and implement enhancements to the Public API to improve performance, usability, and developer experience. This is inclusive of new endpoints such as select organisation and the API being rewritten in .NET"
     },
     {
         "name": "Adopt blue/green deployment model",
@@ -109,7 +116,7 @@
         "ring": "hold",
         "quadrant": "platforms",
         "isNew": "TRUE",
-        "description": "Plan to phase out SAML proxies in favor of more modern authentication methods, improving security and simplifying the authentication architecture of DSI. Currently is our weakest point in the platform from a security perspective."
+        "description": "Plan to phase out SAML proxies in favor of more modern authentication methods, improving security and simplifying the authentication architecture. Currently is our weakest point in the platform from a security perspective."
     },
     {
         "name": "Create integration tests",
@@ -133,6 +140,4 @@
         "description": "Implement an updated process for conducting combined security scans to enhance vulnerability detection and ensure comprehensive security coverage across all DSI components."
     }
 ]
-
-
 
